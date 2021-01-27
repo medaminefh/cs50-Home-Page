@@ -8,3 +8,15 @@ body #container {
   flex-direction: column;
   align-items: center;
 }
+
+body .card {
+  overflow: hidden;
+}
+
+body .card img {
+  transition: 250ms ease-in;
+}
+
+body .card:hover img {
+  transform: scale(1.1);
+}
